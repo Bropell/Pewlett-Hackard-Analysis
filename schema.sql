@@ -60,10 +60,3 @@ CREATE TABLE titles (
 	FOREIGN KEY (emp_no) REFERENCES salaries (emp_no),
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 );
-
-SELECT * FROM departments;
-SELECT * FROM employees;
-SELECT * FROM salaries;
-SELECT * FROM titles;
-SELECT * FROM dept_employees;
-SELECT * FROM dept_manager;
