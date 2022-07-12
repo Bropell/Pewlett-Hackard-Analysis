@@ -125,3 +125,31 @@ INNER JOIN dept_employees as de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments as d
 ON (de.dept_no = d.dept_no);
+
+
+-- Create a new table for retiring employees from 'Sales' department (SKillDrill)
+SELECT ri.emp_no, 
+	ri.first_name,
+	ri.last_name,
+	d.dept_name
+INTO retirement_sales_info
+FROM retirement_info as ri
+INNER JOIN dept_employees as de
+ON (ri.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (de.dept_no = d.dept_no)
+WHERE (d.dept_no = 'd007');
+
+
+-- Create a new table for retiring employees from 'Sales' and 'Development' departments (SKillDrill)
+SELECT ri.emp_no, 
+	ri.first_name,
+	ri.last_name,
+	d.dept_name
+INTO sales_development_retirement
+FROM retirement_info as ri
+INNER JOIN dept_employees as de
+ON (ri.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (de.dept_no = d.dept_no)
+WHERE d.dept_no IN ('d007', 'd005');
