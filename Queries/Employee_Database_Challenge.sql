@@ -58,3 +58,12 @@ AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
 
 SELECT * FROM mentorship_eligibility;
+
+
+-- Total Employees (300,024)
+SELECT COUNT(emp_no)
+FROM employees;
+
+-- Retiring Employees (72,458)
+SELECT sum(count)
+FROM retiring_titles;
