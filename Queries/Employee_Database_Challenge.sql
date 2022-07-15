@@ -40,7 +40,7 @@ FROM unique_titles
 GROUP BY title
 ORDER BY Count DESC;
 
-SELECT* FROM retiring_titles;
+SELECT * FROM retiring_titles;
 
 -- DELIVERABLE 2
 -- Create a Mentorship Eligibility table that holds eligible employees
@@ -67,3 +67,16 @@ FROM employees;
 -- Retiring Employees (72,458)
 SELECT sum(count)
 FROM retiring_titles;
+
+-- Total mentors (1,549)
+SELECT COUNT(emp_no)
+FROM mentorship_eligibility;
+
+-- Mentors by Department
+SELECT COUNT(title) as Count, title
+INTO mentors_by_department
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY Count DESC;
+
+SELECT * FROM mentors_by_department;
