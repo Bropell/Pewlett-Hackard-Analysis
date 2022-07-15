@@ -26,4 +26,9 @@ There are four major talking points for this analysis:
     <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_employees_vs_retiring_employees_query.png">
 </p>
 
-As seen in the image above, additional queries were done to find the total number of employees (300,024) and the total number of retiring employees (72,458). The total number of employees retiring accounts for nearly 25% of the current total employees which is a significant amount. 
+As seen in the image above, additional queries were done to find the total number of employees (300,024) and the total number of retiring employees (72,458). The total number of employees retiring accounts for nearly 25% of the current total employees which is a significant amount of roles to be filled. 
+
+- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
+
+![alt text](https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_mentors_vs_mentors_by_department.png)
+![alt text](https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/mentors_by_department.png)
