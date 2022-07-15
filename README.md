@@ -20,3 +20,10 @@ There are four major talking points for this analysis:
 ![alt text](https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/mentorship_eligibility.png)
 
 ## Summary
+- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+<p align="center">
+    <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_employees_vs_retiring_employees_query.png">
+</p>
+
+As seen in the image above, additional queries were done to find the total number of employees (300,024) and the total number of retiring employees (72,458). The total number of employees retiring accounts for nearly 25% of the current total employees which is a significant amount. 
