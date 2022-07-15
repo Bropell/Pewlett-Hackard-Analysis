@@ -30,5 +30,7 @@ As seen in the image above, additional queries were done to find the total numbe
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
 
-![alt text](https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_mentors_vs_mentors_by_department.png)
-![alt text](https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/mentors_by_department.png)
+<p float="left">
+  <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_mentors_vs_mentors_by_department.png" width="100" />
+  <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/mentors_by_department.png" width="100" /> 
+</p>
