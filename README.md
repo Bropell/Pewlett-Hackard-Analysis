@@ -26,7 +26,7 @@ There are four major talking points for this analysis:
     <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_employees_vs_retiring_employees_query.png">
 </p>
 
-As seen in the image above, additional queries were done to find the total number of employees (300,024) and the total number of retiring employees (72,458). The total number of employees retiring accounts for nearly 25% of the current total employees which is a significant amount of roles to be filled. 
+As seen in the image above, additional queries were done to find the total number of employees (300,024) and the total number of retiring employees (72,458). The total number of employees retiring accounts for nearly 25% of the current total employees which is a significant amount of roles to be filled. This would be a good opportunity for Pewlett Hackard to refine training programs, provide better hiring incentives and/or combine role responsibilities so they may not have to fill every single position opening after retirement. Whatever the case, losing 25% of your employees within a single year would certainly impact the company.  
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
 
@@ -34,3 +34,5 @@ As seen in the image above, additional queries were done to find the total numbe
   <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/total_mentors_vs_mentors_by_department.png"/>
   <img src="https://github.com/Bropell/Pewlett-Hackard-Analysis/blob/main/Resources/mentors_by_department.png"/> 
 </p>
+
+As seen from the images above, additional queries were done to find the total mentors from the mentorship eligibility table generated earlier and the amount of mentors grouped by title. Assuming that Pewlett Hackard is interested in hiring and/or training the same amount of people to fill the positions of those that are leaving, the total number of mentors is barely above 2% of the total retiring employees. Ignoring assistant engineers, since a senior engineer should also know the responsibilities of that role, there is a decent spread of mentors across different titles with the exception of technique leaders, which are slightly lower. Given this spread and assuming the employees in the mentorship roles are excellent teachers and those trying to fill positions are good learners, they should be able to get the next generation of employees ready despite having such a low percentage of mentors. This scenario is essentially a college seminar class where there is only one professor and a several hundred students. There will always be some that learn better than others but for the most part there is a normal distribution of performance. 
